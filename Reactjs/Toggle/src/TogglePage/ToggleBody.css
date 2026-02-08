@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #555;
+}
+.togglediv{
+    height: 70px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: #333;
+    margin: 250px auto;
+}
+button{
+    height: 30px;
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+button:active{
+    width: 140px;
+    margin-left: 30px;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: #111;
+}
